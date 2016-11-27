@@ -27,6 +27,7 @@ namespace ConsoleApplication1
                 .Where(p => p.Id < 100)
                 .Take(5);
 
+            //added a comment
             foreach (var product in productsByName)
             {
                 Console.WriteLine($"ID: {product.Id} : Name: {product.Name} : Price: {product.Price1}");
